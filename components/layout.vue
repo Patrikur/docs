@@ -13,7 +13,8 @@ export default {
   data() {
     return {
       menuItems: [
-        { text: "Get started", to: "/#get-started" },
+        { text: "Introduction", to: "/#introduction" },
+        { text: "Quick Start", to: "/#quick-start" },
         { text: "Grids", to: "/#grids" },
         { text: "Flexbox", to: "/#flexbox" },
         { text: "Buttons", to: "/#buttons" },
@@ -26,3 +27,10 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+ul {
+  position: sticky;
+  top: 20px;
+}
+</style>

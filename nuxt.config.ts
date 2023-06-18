@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   css: ["~/assets/styles/global.scss", "basilcss/basil.css"],
   content: {
     highlight: {
-      theme: "github-dark",
+      theme: "github-light",
     },
   },
 })

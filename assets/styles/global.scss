@@ -6,13 +6,21 @@ ul {
 }
 
 .markdown-styling {
+  code {
+    color: #187f10;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+  }
   h1 {
     font-weight: 700;
     margin-bottom: 1rem;
+    color: #187f10;
   }
   h2 {
     font-weight: 700;
     margin-bottom: 1rem;
+    margin-top: 3rem;
   }
   h3 {
     font-weight: 700;
@@ -34,5 +42,19 @@ ul {
   }
   li {
     margin-bottom: 0.5rem;
+  }
+
+  .docs-border {
+    border: 1px solid #eaeaea;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: #f5f5f5;
+    max-width: 600px;
+  }
+
+  .docs-height {
+    height: auto;
   }
 }
