@@ -1,9 +1,6 @@
 <template>
-  <div>
-    <ContentDoc />
-  </div>
+    <div class="desktop:col-6 m-1 markdown-styling">
+      <ContentDoc />
+    </div>
 </template>
 
-<script setup></script>
-
-<style lang="scss" scoped></style>
