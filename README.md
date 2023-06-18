@@ -1,2 +1,2 @@
 # docs
-[basilcss logo](./basilcss-transparent.png)
+![basilcss logo](./basilcss-transparent.png)
