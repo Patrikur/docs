@@ -106,6 +106,9 @@ Here we use the `flex-row` class to initiate the default flexbox behaviour.
 <div class="row">
   <div class="col-1 flex-row">
     <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
   </div>
 </div>
 ```
@@ -127,6 +130,9 @@ Here we use the `flex-column` class to turn the row into a column.
 <div class="row">
   <div class="col-1 flex-column">
     <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
   </div>
 </div>
 ```
@@ -140,7 +146,81 @@ Here we use the `flex-column` class to turn the row into a column.
   </div>
 </div>
 
-## # Width
+#### Example 3
+
+Here we use the `flex-center` class to center the elements in the grid.
+
+```html
+<div class="row">
+  <div class="col-1 flex-row flex-center">
+    <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
+  </div>
+</div>
+```
+
+<div class="row docs-border">
+  <div class="col-1 docs-height flex-row flex-center">
+    <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
+  </div>
+</div>
+
+#### Example 4
+
+Here we use the `flex-left` class to align the items to the left.
+
+```html
+<div class="row">
+  <div class="col-1 flex-column flex-left">
+    <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
+  </div>
+</div>
+```
+
+<div class="row docs-border">
+  <div class="col-1 docs-height flex-colum flex-left">
+    <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
+  </div>
+</div>
+
+#### Example 5
+
+Here we use the `flex-left` class to align the items to the left.
+
+```html
+<div class="row">
+  <div class="col-1 flex-column flex-right">
+    <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
+  </div>
+</div>
+```
+
+<div class="row docs-border">
+  <div class="col-1 docs-height flex-colum flex-right">
+    <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
+    <p>🪴</p>
+  </div>
+</div>
+
+## # 100% Width
+
+If you have an image in your project, you can easily make it resonsive by adding the `w-100pr` class. Thenn it scales according to the screen size until it has reached it's size limit.
 
 ## # Buttons
 
@@ -149,5 +229,3 @@ Here we use the `flex-column` class to turn the row into a column.
 ## # Margin
 
 ## # Padding
-
-## # Screen Size
