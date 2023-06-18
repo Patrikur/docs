@@ -28,26 +28,26 @@ Basil uses a flexible 8 row grid system. Use the `row` class to initiate the gri
 
 ```html
 <div class="row">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>
-  <div>7</div>
-  <div>8</div>
+  <div>🪴</div>
+  <div>🪴</div>
+  <div>🪴</div>
+  <div>🪴</div>
+  <div>🪴</div>
+  <div>🪴</div>
+  <div>🪴</div>
+  <div>🪴</div>
 </div>
 ```
 
 <div class="row docs-border">
-<div>1</div>
-<div>2</div>
-<div>3</div>
-<div>4</div>
-<div>5</div>
-<div>6</div>
-<div>7</div>
-<div>8</div>
+<div>🪴</div>
+<div>🪴</div>
+<div>🪴</div>
+<div>🪴</div>
+<div>🪴</div>
+<div>🪴</div>
+<div>🪴</div>
+<div>🪴</div>
 </div>
 
 ### Column
@@ -58,40 +58,40 @@ If you have two elements you can organize them with the `col` class.
 
 ```html
 <div class="row">
-  <div class="col-2">1</div>
-  <div class="col-6">2</div>
+  <div class="col-2">🪴</div>
+  <div class="col-6">🪴</div>
 </div>
 ```
 
 <div class="row docs-border">
-    <div class="col-2">1</div>
-    <div class="col-6">2</div>
+    <div class="col-2">🪴</div>
+    <div class="col-6">🪴</div>
 </div>
 
 #### Example 2
 
 ```html
 <div class="row">
-  <div class="col-4">1</div>
-  <div class="col-4">2</div>
+  <div class="col-4">🪴</div>
+  <div class="col-4">🪴</div>
 </div>
 ```
 
 <div class="row docs-border">
-    <div class="col-4">1</div>
-    <div class="col-4">2</div>
+    <div class="col-4">🪴</div>
+    <div class="col-4">🪴</div>
 </div>
 
 #### Example 3
 
 ```html
 <div class="row">
-  <div class="col-8">1</div>
+  <div class="col-8">🪴</div>
 </div>
 ```
 
 <div class="row docs-border">
-    <div class="col-8">1</div>
+    <div class="col-8">🪴</div>
 </div>
 
 ## # Flexbox
