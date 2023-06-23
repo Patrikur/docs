@@ -1,6 +1,5 @@
 <template>
-    <div class="desktop:col-6 m-1 markdown-styling">
-      <ContentDoc />
-    </div>
+  <div class="b-desktop:b-col-6 b-m-1 markdown-styling">
+    <ContentDoc />
+  </div>
 </template>
-

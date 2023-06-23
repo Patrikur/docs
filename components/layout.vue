@@ -1,7 +1,11 @@
 <template>
-  <div class="hidden desktop:visible">
+  <div class="b-hidden b-desktop:b-visible">
     <ul>
-      <li class="p-b-1 fs-2" v-for="(item, index) in menuItems" :key="index">
+      <li
+        class="b-p-b-1 b-fs-2"
+        v-for="(item, index) in menuItems"
+        :key="index"
+      >
         <NuxtLink :to="item.to">- {{ item.text }}</NuxtLink>
       </li>
     </ul>
@@ -31,6 +35,6 @@ export default {
 <style scoped>
 ul {
   position: sticky;
-  top: 20px;
+  top: 100px;
 }
 </style>

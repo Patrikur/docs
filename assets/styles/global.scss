@@ -1,3 +1,10 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
 // removing ul styles
 ul {
   list-style: none;
@@ -6,6 +13,7 @@ ul {
 }
 
 .markdown-styling {
+  max-width: 600px;
   code {
     color: #187f10;
     padding: 0.2rem 0.4rem;
@@ -32,7 +40,6 @@ ul {
   }
   p {
     margin-bottom: 1rem;
-    max-width: 600px;
   }
   ul {
     margin-bottom: 1rem;
@@ -56,6 +63,7 @@ ul {
 
   .docs-height {
     height: 300px;
-    width: 100%;
+    width: 500px;
+    background-color: red;
   }
 }
