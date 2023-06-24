@@ -15,7 +15,7 @@
     "nuxt": "^3.5.2"
   },
   "dependencies": {
-    "basilcss": "0.0.97",
+    "basilcss": "0.0.98",
     "sass": "^1.63.4"
   }
 }
