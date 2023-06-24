@@ -1,7 +1,7 @@
 <template>
   <Header />
-  <div class="b-m-2 b-desktop:b-row">
-    <Layout class="b-desktop:b-col-2" />
+  <div class="m-2 big:row">
+    <Layout class="big:col-2" />
     <slot />
   </div>
 </template>

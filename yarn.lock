@@ -1480,10 +1480,10 @@ base64-js@^1.3.1:
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
 
-basilcss@0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/basilcss/-/basilcss-0.0.5.tgz#e26a91073cfd5a821a9e12ebeb2902601ea586aa"
-  integrity sha512-75qsZFTTO8IcfbxTLUA2iXMLCDNs/ByMglJ4KuCc2pnOwmPvUnZuPGvZ4nSAWJqgaoDj9Fcd7EYMCb6ERZSoYw==
+basilcss@0.0.97:
+  version "0.0.97"
+  resolved "https://registry.yarnpkg.com/basilcss/-/basilcss-0.0.97.tgz#0a5ed21f633d5f2dd7e94ad6a854b3e9989f74ee"
+  integrity sha512-rCGb6h5prJvQtPSdyeKcM9UWb3Smjv4xX968R5UKqyfFXq44WgBNd+zoA8YlDi/nrTYCyCVQy7eliLSiof+gDA==
 
 big-integer@^1.6.44:
   version "1.6.51"

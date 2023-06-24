@@ -1,8 +1,6 @@
 # Basil CSS
 
-Basil is a lightweight UI framework made with the goal of bridging the gap between developers who like using UI frameworks and those who prefer styling apps without them. Basil follows mobile first design principles so it is responsive for both small and big devices. Basil is a lightweight, highly customizable CSS framework created by Daniel Bergmann and maintained by the community.
-
-The framework provides an easy-to-use grid system, CSS variables, and various utility classes that aim to speed up your development process while maintaining a high degree of flexibility.
+Basil CSS is a lightweight and highly customizable UI framework made with the goal of bridging the gap between developers who like using UI frameworks and those who prefer styling apps without them. Basil follows mobile first design principles so it's fully responsive for both small and big devices.
 
 ## # What is Basil CSS
 
@@ -10,19 +8,19 @@ By using Basil you speed up your development by only sprinkling the bare minimum
 
 If a product is build originally with Basil, the maintainer can jump into the prjoect and change it simply by adding more CSS classes the way he likes best, thus embracing the complexity and chatotic nature of maintaning CSS.
 
+The framework provides an easy-to-use grid system and various utility classes that aim to speed up your development process while maintaining a high degree of flexibility.
+
 [If you wish to help out with the development of the framework, feel free to make a pull request in the repo](https://github.com/Basilcss)
 
-# # Quick start
+# # Installation
 
-## # Installation
-
-Installation is simple. If you are running a Node.js application follow these steps:
+Installation is simple. If you are running a Javascript application, follow these steps:
 
 1. In your terminal run `yarn add basilcss` or `npm i basilcss`
 2. Go to your root file and add this line above your global CSS file `import 'basilcss/basil.css'`
 3. Start styling your HTML template.
 
-## # Global Styles
+# # Global Styles
 
 Basil resets all default margins and padding and sets the box-sizing property to border-box for every element on the page.
 
@@ -34,7 +32,7 @@ Basil resets all default margins and padding and sets the box-sizing property to
 }
 ```
 
-## # CSS Variables
+# # CSS Variables
 
 Basil uses CSS variables for consistency in design. You can use these variables throughout your project or change their values in your CSS file.
 
@@ -49,11 +47,11 @@ Basil uses CSS variables for consistency in design. You can use these variables 
   /* colors */
   --primary: #333;
   --secondary: #fff;
-  --accent: rgb(35, 156, 22);
+  --accent: #187F10
 }
 ```
 
-## # Typography
+# # Typography
 
 Links (<a> elements) are styled with the accent color. Hover effect changes the link color to the secondary color.
 
@@ -79,7 +77,7 @@ ul, ol {
 
 ```
 
-## # Width and Height Classes
+# # Width and Height
 
 Basil provides classes to help you quickly set the width and height of elements, both as a percentage of their parent and as a percentage of the viewport height (vh). There are classes for 10% increments as well as for 100%.
 
@@ -110,7 +108,7 @@ The same classes are also provided for larger screens (viewport width of 764px o
 }
 ```
 
-## # Grid Layout Classes
+# # Grid Layout
 
 Basil includes a grid system using CSS grid layout. The .row class creates a grid container with 8 equal columns.
 
@@ -142,7 +140,7 @@ The same classes are also provided for larger screens (viewport width of 764px o
 }
 ```
 
-## # Flexbox Classes
+# # Flexbox
 
 Basil includes a series of utility classes for flexbox layout. These classes are named in a predictable manner:
 
@@ -150,19 +148,19 @@ Start with .flex-row or .flex-col for row or column direction.
 Append -center, -around, or -between for justify-content.
 Append -center again for align-items.
 
-### # Columns
+## # Columns
 
 - `.col-1` to `.col-8` will each span their number of columns. For example, `.col-1` will span 1 column, and `.col-8` will span 8 columns.
 - At a minimum screen width of 764px, the `.big:col-1` to `.big:col-8` classes behave similarly, allowing you to adjust your layout for larger screens.
 
-### # Rows
+## # Rows
 
 - The `.row` class should be used to define a horizontal row. It utilizes CSS grid layout's `grid-template-columns` to automatically divide the row into 8 equal parts. The grid gap (spacing between cells) is defined using the small size CSS variable (`--sm`).
 - For larger screens (minimum width of 764px), use `.big:row` to define a row. The functionality is the same as the `.row` class.
 
-## # Utility Classes
+# # Utility Classes
 
-### # Width and Height
+## # Width and Height
 
 Basil provides classes for controlling the width and height of elements:
 
@@ -170,15 +168,15 @@ Basil provides classes for controlling the width and height of elements:
 - `.h-10` to `.h-90` and `.full-height` will set the height of an element to the specified percentage of its parent. For larger screens (minimum width of 764px), use `.big:h-10` to `.big:h-90` and `.big:full-height`.
 - `.vh-10` to `.vh-100` will set the height of an element to the specified percentage of the viewport height. For larger screens (minimum width of 764px), use `.big:vh-10` to `.big:vh-100`.
 
-### # Flex Display
+## # Flex Display
 
 Basil includes several utility classes for easily applying `display: flex;` and its related properties:
 
 - `.flex-row` and `.flex-col` change the flex direction.
 - Additional classes are provided for controlling alignment along both axes: `.flex-row-center`, `.flex-col-center`, `.flex-row-between`, `.flex-col-between`, etc.
-- For larger screens (minimum width of 764px), the same functionality is available with the `.big\:` prefix.
+- For larger screens (minimum width of 764px), the same functionality is available with the `.big:` prefix.
 
-### # Padding and Margin
+## # Padding and Margin
 
 The `.p-0` to `.p-4` and `.m-0` to `.m-4` classes apply padding and margin, respectively, with sizes ranging from 0 (none) to extra-large (as defined by the `--xl` CSS variable). Similar classes are provided for padding and margin on individual sides of an element, like `....
 
@@ -203,3 +201,5 @@ The framework uses scale from 0 to 4 for both margin (m) and padding (p) classes
 - **.m-1**: Applies a margin of 0.5rem to all sides.
 - **.p-3**: Applies a padding of 2rem to all sides.
 - **.m-t-2**: Applies a margin-top of 1rem.
+
+<a href="/#installation">Happy hacking!</a>

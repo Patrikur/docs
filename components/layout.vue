@@ -1,8 +1,8 @@
 <template>
-  <div class="b-hidden b-desktop:b-visible">
+  <div class="hidden big:visible">
     <ul>
       <li
-        class="b-p-b-1 b-fs-2"
+        class="p-b-1 fs-2"
         v-for="(item, index) in menuItems"
         :key="index"
       >
@@ -17,15 +17,15 @@ export default {
   data() {
     return {
       menuItems: [
-        { text: "Introduction", to: "/#introduction" },
-        { text: "Quick Start", to: "/#quick-start" },
-        { text: "Grids", to: "/#grids" },
+        { text: "Installation", to: "/#installation" },
+        // global styles
+        { text: "Global Styles", to: "/#global-styles" },
+        { text: "CSS Variables", to: "/#css-variables" },
+        { text: "Typography", to: "/#typography" },
+        { text: "Width and Height", to: "/#width-and-height" },
+        { text: "Grid Layout", to: "/#grid-layout" },
         { text: "Flexbox", to: "/#flexbox" },
-        { text: "Buttons", to: "/#buttons" },
-        { text: "Font Size", to: "/#font-size" },
-        { text: "Margin", to: "/#margin" },
-        { text: "Padding", to: "/#padding" },
-        { text: "Screen Size", to: "/#screen-size" },
+        { text: "Utility Classes", to: "/#utility-classes" },
       ],
     }
   },

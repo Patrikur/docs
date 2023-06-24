@@ -1,11 +1,11 @@
 <template>
-  <div class="b-m-2">
+  <div class="m-2">
     <nuxt-link to="/">
       <img
         src="https://raw.githubusercontent.com/Basilcss/docs/main/basilcss-transparent.png"
         alt="basil css logo"
       />
-      <span class="b-fs-2">Basil CSS</span>
+      <span class="fs-2">Basil CSS</span>
     </nuxt-link>
   </div>
 </template>
