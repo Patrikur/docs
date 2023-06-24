@@ -20,6 +20,7 @@ div {
   top: 0;
   padding: 0.5rem 0;
   background-color: #22272d;
+  opacity: 0.5;
 }
 
 a {
@@ -29,6 +30,11 @@ a {
 
 span {
   font-weight: bold;
+  opacity: 1;
+}
+
+img {
+  opacity: 1;
 }
 
 .fade-in {
