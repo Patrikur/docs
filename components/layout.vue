@@ -2,7 +2,20 @@
   <div class="hidden big:visible">
     <ul class="slide-in">
       <li class="p-b-1" v-for="(item, index) in menuItems" :key="index">
-        <NuxtLink :to="item.to">- {{ item.text }}</NuxtLink>
+        <NuxtLink :to="item.to"
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+            <rect width="256" height="256" fill="none" />
+            <polyline
+              points="96 48 176 128 96 208"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            />
+          </svg>
+          {{ item.text }}</NuxtLink
+        >
       </li>
     </ul>
   </div>
@@ -35,6 +48,9 @@ ul {
 }
 ul li {
   font-size: 1.3rem;
+}
+svg {
+  height: 0.8rem;
 }
 a {
   color: inherit;

@@ -2,7 +2,7 @@
   <div class="m-2 fade-in">
     <nuxt-link to="/">
       <img
-        class="m-l-1"
+        class="m-l-1 m-t-1"
         src="https://raw.githubusercontent.com/Basilcss/docs/main/basilcss-transparent.png"
         alt="basil css logo"
       />
@@ -19,7 +19,7 @@ div {
   z-index: 1;
   top: 0;
   padding: 0.5rem 0;
-  background-color: #fafad2;
+  background-color: #22272d;
 }
 
 a {
