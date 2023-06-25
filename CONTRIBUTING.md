@@ -1,4 +1,6 @@
-Contributing to Basil CSS docs Thank you for considering contributing to this repository! We appreciate your interest in making it better.
+## Contributing to Basil.css
+
+Thank you for considering contributing to this repository! We appreciate your interest in making it better.
 
 If you encounter any problems or bugs while using this repository, please open an issue on the issue tracker and provide as much detail as possible. Include steps to reproduce the issue and any relevant error messages or screenshots.
 
