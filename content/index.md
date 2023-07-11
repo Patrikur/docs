@@ -17,7 +17,7 @@ The framework provides an easy-to-use grid system and various utility classes th
 Installation is simple. If you are running a Javascript application, follow these steps:
 
 1. In your terminal run `yarn add basilcss` or `npm i basilcss`
-2. Go to your root file and add this line above your global CSS file `import 'basilcss/basil.css'`
+2. Go to your root file and add this line above your global CSS file `import 'basilcss'`
 3. Start styling your HTML template.
 
 ## See Examples with different tech stacks
@@ -71,7 +71,10 @@ Basil uses CSS variables for consistency in design. You can use these variables 
 
 # Typography
 
-Links (<a> elements) are styled with the accent color. Hover effect changes the link color to the secondary color.
+Links (elements) are styled with the accent color. 
+<a href>
+Hover effect changes the link color to the secondary color
+</a>.
 
 ```
 a {
