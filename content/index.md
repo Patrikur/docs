@@ -71,7 +71,7 @@ Basil uses CSS variables for consistency in design. You can use these variables 
 
 # Typography
 
-Links (<a> elements) are styled with the accent color. Hover effect changes the link color to the secondary color.
+Links (elements) are styled with the accent color. <a>Hover effect changes the link color to the secondary color</a>.
 
 ```
 a {
