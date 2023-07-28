@@ -166,8 +166,8 @@ The same classes are also provided for larger screens (viewport width of 764px o
 Basil includes a series of utility classes for flexbox layout. These classes are named in a predictable manner:
 
 Start with .flex-row or .flex-col for row or column direction.
-Append -center, -around, or -between for justify-content.
-Append -center again for align-items.
+Append -justifyCenter, -justifyAround, -justifyEvenly or -justifyBetween for justify-content.
+Append -alignCenter, -alignLeft, alignRight for align-items.
 
 ## Columns
 
@@ -194,7 +194,7 @@ Basil provides classes for controlling the width and height of elements:
 Basil includes several utility classes for easily applying `display: flex;` and its related properties:
 
 - `.flex-row` and `.flex-col` change the flex direction.
-- Additional classes are provided for controlling alignment along both axes: `.flex-row-center`, `.flex-col-center`, `.flex-row-between`, `.flex-col-between`, etc.
+- Additional classes are provided for controlling alignment along both axes: `.flex-row-justifyCenter`, `.flex-col-alignCenter`, `.flex-row-justifyBetween`, `.flex-col-justifyBetween`, etc.
 - For larger screens (minimum width of 764px), the same functionality is available with the `.big:` prefix.
 
 ## Padding and Margin
@@ -202,13 +202,6 @@ Basil includes several utility classes for easily applying `display: flex;` and 
 The `.p-0` to `.p-4` and `.m-0` to `.m-4` classes apply padding and margin, respectively, with sizes ranging from 0 (none) to extra-large (as defined by the `--xl` CSS variable). Similar classes are provided for padding and margin on individual sides of an element, like `....
 
 - **.big:flex-row-between-center**: Like flex-row-between-center but only applied when viewport width is 764px or more.
-
-**Space Evenly**
-
-- **.flex-col-around**: Makes a flex container with column direction and space evenly distributed along the main axis.
-- **.flex-col-between**: Makes a flex container with column direction and space between items along the main axis.
-- **.flex-col-around-center**: Makes a flex container with column direction, space evenly distributed along the main axis and centers the items along the cross axis.
-- **.flex-col-between-center**: Makes a flex container with column direction, space between items along the main axis and centers the items along the cross axis.
 
 For screens 764px or larger, use the `.big:` prefix.
 
